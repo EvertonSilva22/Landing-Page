@@ -1,0 +1,123 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*** cabeçalho***/
+header{
+    background-color:rgba(0, 0, 0, 0.904);
+    padding: 3%;
+    
+}
+.cabecalho{
+    display: flex;
+    width: 100%;
+}
+.primeira-sessao{
+    padding: 5%;
+    float: left;
+    padding-top: 15%;
+}
+.segunda-sessao{
+    padding: 1%;
+    float: right;
+   
+}
+h2{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+.cabecalho h1{
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 3%;
+}
+.cabecalho p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-bottom: 10%;
+}
+.cabecalho strong{
+    color: #1987d2;
+    font-family: cursive;
+}
+.cabecalho a{
+    color: #5454ce;
+    text-decoration: none;
+    border:  solid 2px #5454ce;
+    padding: 2%;
+    margin: 1%;
+}
+.cabecalho a:hover{
+    color: white;
+    background-color: #5454ce;
+}
+/***conteudo principal***/
+.conteudo{
+        display: flex;
+        background-color: #fbfbfb;
+        padding: 3%;
+}
+.conteudo h3{
+    color: #2f4461;
+    margin-bottom: 3%;
+    font-size: 2em;
+}
+.terceira-sessao{
+    padding: 5%;
+    float: left;
+    margin: 3%;
+}
+.terceira-sessao p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.quarta-sessao{
+    padding: 3%;
+    float: right;
+}
+.quarta-sessao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.conteudo-dois{
+    display: flex;
+}
+.quinta-sessao{
+    float: left;
+    padding: 3%;
+}
+.quinta-sessao img{
+    border: solid 1px rgba(0, 0, 0, 0.726);
+    border-radius: 3%;
+}
+.ultima-sessao{
+    padding: 3%;
+    float: right;
+    margin: 3%;
+}
+.ultima-sessao strong{
+    color: #1987d2;
+    font-family: cursive;
+    font-size: 18px;
+}
+.ultima-sessao p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.ultima-sessao h3{
+    padding-top: 2%;
+    color: #2f4461;
+    margin-bottom: 3%;
+    font-size: 2em;
+    padding-bottom: 2%;
+
+}
+/*** Depoimento***/
+.depoimento{
+    padding: 5%;
+    background-color: #fbfbfb;
+    margin: 2%;
+}
