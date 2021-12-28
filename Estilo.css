@@ -119,5 +119,75 @@ h2{
 .depoimento{
     padding: 5%;
     background-color: #fbfbfb;
-    margin: 2%;
 }
+.depoimento img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin-bottom: 2%;
+    margin-left: 550px;
+}
+.votos {
+    margin-left: 550px;
+    margin-bottom: 3%;
+}
+.depoimento strong{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    margin: 1%;
+    color: #6e6c6c;
+    
+}
+.depoimento h3{
+    margin-top: 1%;
+    font-size: 15px;
+    text-align: center;
+    color: #6e6c6c;
+}
+
+/*** Rodapé ***/
+footer{
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+.rodape h3{
+    color: #1987d2;
+    font-family: cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+.rodape h2{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.rodape p{
+    color: white;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.rodape a{
+    color: #5454ce;
+    text-decoration: none;
+    border:  solid 2px #5454ce;
+    padding: 1%;
+    margin-left: 570px;
+    margin-bottom: 1%;
+}
+.rodape a:hover{
+    color: white;
+    background-color: #5454ce;
+}
+.rodape h4{
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
