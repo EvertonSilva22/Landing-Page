@@ -143,23 +143,23 @@ h2{
 }
 .depoimento img{
     border-radius: 50%;
-    width: 210px;
-    height: 215px;
+    width: 220px;
+    height: 220px;
     display: block;
     margin-bottom: 2%;
-    margin-left: 42%;
+    margin-left: 40%;
 }
 .votos {
     margin-left: 45%;
     margin-bottom: 3%;
 }
-.depoimento strong{
+
+.depoimento p{
     font-family: cursive;
-    font-size: 18px;
-    text-align: center;
-    margin: 1%;
+    font-size: 14pt;
+    margin: 5%;
     color: #6e6c6c;
-    
+    text-align: justify;
 }
 .depoimento h3{
     margin-top: 1%;
